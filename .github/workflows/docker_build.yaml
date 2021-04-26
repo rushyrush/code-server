@@ -30,7 +30,7 @@ jobs:
           context: .
           file: ./Dockerfile         
           push: true
-          tags: rushyrush/codes-server:3.9.0
+          tags: rushyrush/code-server:latest,rushyrush/code-server:3.9.0
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
