@@ -1,6 +1,7 @@
 # Code-Server & Extras
+tag: `rushyrush/code-server:latest`
 
-base: codercom/code-server:3.9.0
+from: `codercom/code-server:3.9.0`
 
 ### Extras
 - Terraform - `hashicorp/terraform:0.15.0`
