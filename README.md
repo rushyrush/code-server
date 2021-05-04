@@ -1,4 +1,7 @@
 # Code-Server & Extras
+
+https://github.com/rushyrush/code-server/actions/workflows/docker_build.yaml/badge.svg
+
 tag: `rushyrush/code-server:latest`
 
 from: `codercom/code-server:3.9.3`
