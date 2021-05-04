@@ -1,6 +1,6 @@
 # Code-Server & Extras
 
-https://github.com/rushyrush/code-server/actions/workflows/docker_build.yaml/badge.svg
+![code-server-build](https://github.com/rushyrush/code-server/actions/workflows/docker_build.yaml/badge.svg)
 
 tag: `rushyrush/code-server:latest`
 
