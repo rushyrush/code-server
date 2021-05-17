@@ -4,10 +4,10 @@
 
 tag: `rushyrush/code-server:latest`
 
-from: `codercom/code-server:3.9.3`
+from: `codercom/code-server:3.10.1`
 
 ### Extras
-- Terraform - `hashicorp/terraform:0.15.0`
+- Terraform - `hashicorp/terraform:0.15.3`
 - AWSCLI
 
 ### Vars
@@ -19,7 +19,6 @@ from: `codercom/code-server:3.9.3`
 | `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London |
 | `-e HASHED_PASSWORD=` | Optional web gui password, overrides `PASSWORD`, instructions on how to create it is below. |
 | `-e PROXY_DOMAIN=code-server.my.domain` | If this optional variable is set, this domain will be proxied for subdomain proxying. See [Documentation](https://github.com/cdr/code-server/blob/master/doc/FAQ.md#sub-domains) |
-| `-v /config` | Contains all relevant configuration files. |
 
 
 Generate the `hashed-password` with:
