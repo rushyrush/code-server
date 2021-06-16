@@ -4,10 +4,10 @@
 
 tag: `rushyrush/code-server:latest`
 
-from: `codercom/code-server:3.10.1`
+from: `codercom/code-server:3.10.2`
 
 ### Extras
-- Terraform - `hashicorp/terraform:0.15.3`
+- Terraform - `hashicorp/terraform:0.15.5`
 - AWSCLI
 
 ### Vars
