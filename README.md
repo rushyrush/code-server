@@ -9,6 +9,9 @@ from: `codercom/code-server:3.10.2`
 ### Extras
 - Terraform - `hashicorp/terraform:0.15.5`
 - AWSCLI
+- kubectl
+- fluxcd/fluxcli
+- helm
 
 ### Vars
 
