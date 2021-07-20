@@ -2,7 +2,7 @@ name: code-server-build
 
 on:
   push:
-    branches: [ main ]
+    branches: [ * ]
 
 jobs:
   docker:
