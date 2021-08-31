@@ -4,10 +4,10 @@
 
 tag: `rushyrush/code-server:latest`
 
-from: `codercom/code-server:3.10.2`
+from: `codercom/code-server:3.11.1`
 
 ### Extras
-- Terraform - `hashicorp/terraform:0.15.5`
+- Terraform - `hashicorp/terraform:1.0.5`
 - AWSCLI
 - kubectl
 - fluxcd/fluxcli

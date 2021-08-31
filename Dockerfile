@@ -1,10 +1,10 @@
-FROM codercom/code-server:3.10.2
+FROM codercom/code-server:3.11.1
 
 RUN sudo apt-get update \
  && sudo apt-get install -y unzip
 
 # Install terraform
-COPY --from=hashicorp/terraform:0.15.5 /bin/terraform /bin/
+COPY --from=hashicorp/terraform:1.0.5 /bin/terraform /bin/
 RUN terraform version
 
 # Install awscli
