@@ -3,7 +3,7 @@ name: code-server-build
 on:
   push:
     branches:
-      - '*'
+      - 'main'
 
 jobs:
   docker:
@@ -31,7 +31,7 @@ jobs:
           context: .
           file: ./Dockerfile         
           push: true
-          tags: rushyrush/code-server:latest,rushyrush/code-server:3.12.0
+          tags: rushyrush/code-server:latest,rushyrush/code-server:4.3.0
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
