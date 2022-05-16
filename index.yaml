@@ -3,6 +3,16 @@ entries:
   code-server:
   - apiVersion: v2
     appVersion: 4.4.0
+    created: "2022-05-16T22:45:43.320516362Z"
+    description: A Helm chart for coder/code-server
+    digest: 030d8ef9f049231cd653c191468077c42c972f0957869ac15fe412ae9a3d2407
+    name: code-server
+    type: application
+    urls:
+    - https://github.com/rushyrush/code-server/releases/download/code-server-4.4.0/code-server-4.4.0.tgz
+    version: 4.4.0
+  - apiVersion: v2
+    appVersion: 4.4.0
     created: "2022-05-16T22:30:29.648704202Z"
     description: A Helm chart for coder/code-server
     digest: 4499afa2604292a25ceddf67c0a4fa958ef7584ae3338bd1e109ceeb4235cb61
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/rushyrush/code-server/releases/download/code-server-2.5.0/code-server-2.5.0.tgz
     version: 2.5.0
-generated: "2022-05-16T22:30:29.648719702Z"
+generated: "2022-05-16T22:45:43.320532762Z"
