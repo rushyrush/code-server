@@ -4,7 +4,7 @@ RUN sudo apt-get update \
  && sudo apt-get install -y unzip
 
 # Install terraform
-COPY --from=hashicorp/terraform:1.1.8 /bin/terraform /bin/
+COPY --from=hashicorp/terraform:1.1.9 /bin/terraform /bin/
 RUN terraform version
 
 # Install awscli
@@ -28,5 +28,5 @@ RUN curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 |
 RUN helm version
 
 # fluxcli install
-#RUN curl -s https://fluxcd.io/install.sh | sudo bash
-#RUN flux --version
+RUN curl -s https://fluxcd.io/install.sh | sudo bash
+RUN flux --version
