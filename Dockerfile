@@ -1,4 +1,4 @@
-FROM codercom/code-server:4.3.0
+FROM codercom/code-server:4.4.0
 
 RUN sudo apt-get update \
  && sudo apt-get install -y unzip

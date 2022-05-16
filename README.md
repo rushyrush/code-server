@@ -4,7 +4,7 @@
 
 tag: `rushyrush/code-server:latest`
 
-from: `codercom/code-server:4.3.0`
+from: `codercom/code-server:4.4.0`
 
 ### Extras
 - Terraform - `hashicorp/terraform:1.1.8`
