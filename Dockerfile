@@ -28,5 +28,5 @@ RUN curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 |
 RUN helm version
 
 # fluxcli install
-RUN curl -s https://fluxcd.io/install.sh | sudo bash
-RUN flux --version
+#RUN curl -s https://fluxcd.io/install.sh | sudo bash
+#RUN flux --version
